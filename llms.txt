@@ -1,0 +1,40 @@
+# Lunaria - Privacy-First Women's Wellness App
+
+> Flutter app for cycle tracking and women's wellness, designed so sensitive health data stays on the device.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/lunaria-womens-wellness-app
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Cycle-tracking apps routinely send intimate health data to third-party servers and advertising SDKs. Users who want the tracking often do not want the data collection that normally comes with it.
+
+A Flutter application built so that sensitive data does not need to leave the device to be useful. Feature-first architecture keeps each domain self-contained, and the design system is specified through screen and component contracts so behaviour stays consistent as the app grows.
+
+## Stack
+Framework: Flutter, Language: Dart, Architecture: Feature-first with domain separation, Design: Documented screen and component contracts
+
+## Capabilities
+- Cycle and symptom tracking
+- Privacy-first data handling
+- Feature-first modular architecture
+- Documented design system contracts
+- Light and dark presentation
+
+## Outcomes
+- Sensitive health data kept on-device by design rather than by policy
+- Design contracts allow UI changes without redesigning each screen from scratch
+
+## FAQ
+Q: What makes it privacy-first?
+A: The architecture treats the device as the system of record for sensitive entries, so the app is useful without shipping intimate data to a server.
+
+Q: Why Flutter?
+A: One codebase across platforms with full control of rendering, which matters for a design-led health app.
+
+Q: Is it published?
+A: The implementation is in a private repository; access can be arranged.
+
+Q: Who is it for?
+A: Users who want cycle and wellness tracking without the data collection typical of the category.
